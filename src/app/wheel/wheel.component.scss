@@ -1,32 +1,36 @@
-.select {
+.wrapper {
   position: relative;
-  .controls {
-    display: flex;
-    justify-content: space-between;
-    background-color: gray;
-    padding: 12px;
-    color: white;
-  }
-  .wheel {
-    margin-top: 75px;
-    padding: 24px 0;
-    position: absolute;
-    width: 100%;
+  .select {
     position: relative;
-    .wheel-container{
+    .controls {
       display: flex;
-      flex-direction: column;
-      padding: 0;
-      width: 90%;
-      margin: auto;
+      justify-content: space-between;
+      background-color: gray;
+      padding: 12px;
+      color: white;
+    }
+    .wheel {
+      margin-top: 75px;
+      padding: 24px 0;
       position: absolute;
+      width: 100%;
+      position: relative;
+      .wheel-container{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        width: 90%;
+        margin: auto;
+        position: absolute;
 
-      .wheel-item {
-        text-align: center;
-        list-style: none;
-        font-size: 30px;
+        .wheel-item {
+          text-align: center;
+          list-style: none;
+          font-size: 30px;
+        }
       }
     }
+
   }
 
 }

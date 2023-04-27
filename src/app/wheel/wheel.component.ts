@@ -30,7 +30,7 @@ export class WheelComponent implements OnInit {
           selectedIndex: 0,
           wheelWrapperClass: "wheel-container",
           wheelItemClass: "wheel-item",
-          rotate: 25
+          rotate: 20
         },
         probeType: 3
       })

@@ -1,16 +1,17 @@
-<section class="select">
-  <section class="controls">
-    <div>Cancelar</div>
-    <div>Continuar</div>
+<section class="wrapper">
+  <section class="select">
+    <section class="controls">
+      <div>Cancelar</div>
+      <div>Continuar</div>
+    </section>
+    <section class="wheel">
+      <ul class="wheel-container">
+        <ng-container *ngFor="let item of items">
+          <li class="wheel-item">
+            <span>{{ item.description }}</span>
+          </li>
+        </ng-container>
+      </ul>
+    </section>
   </section>
-  <section class="wheel">
-    <ul class="wheel-container">
-      <ng-container *ngFor="let item of items">
-        <li class="wheel-item">
-          <span>{{ item.description }}</span>
-        </li>
-      </ng-container>
-    </ul>
-  </section>
-
 </section>
