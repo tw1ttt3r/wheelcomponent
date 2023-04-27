@@ -37,4 +37,6 @@ export class WheelComponent implements OnInit {
     }
   }
 
+  confirm() {}
+
 }
